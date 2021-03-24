@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script type="text/javascript" src="graficos.js"></script>
+		<script>
+			google.charts.load('current', {'packages':['corechart'],
+				'language': 'pt'});
+			google.charts.setOnLoadCallback(desenharGraficos);			
+		</script>
+
+	</head>
+	<body>
+		<div id="graficoPizza"></div>
+		<div id="graficoLinha"></div>
+		<div id="graficoColuna"></div>
+	</body>
+</html>
